@@ -1,0 +1,47 @@
+<DOCTYPE! html>
+    <html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+        <div id='start_button'>
+            <button>START</button>
+        </div>
+
+        <div id='game' onload="winner()">
+            <div id='hanged'>
+
+                <h1>Guesses Remaining: <span id="body_parts"></span></h1>
+
+            </div>
+            <div id='chosen_word'>
+                <p>Rules:</p>
+                <ul id='rules'>
+                    <li>Press a letter to begin.</li>
+                    <li>Only choose a letter once.</li>
+                    <li>Do NOT hold down the letter key.</li>
+                    <li>Enjoy!</li>
+
+                </ul>
+                <h1><span id='word_length'></span></h1>
+
+            </div>
+            <div id='selection'>
+
+                <h2>Category:<span id='category'></span></h2>
+
+                </p>Wrong Guesses: <span id='wrong_guess'></span></p>
+
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src='script.js'></script>
+    </body>
+
+    </html>
