@@ -1,0 +1,82 @@
+
+
+#backbitch {
+    background-image: url("../Hangman/hangmand.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    background-color: #f4f4f4;
+    font-weight:bold;
+    font-size: 20px; 
+    padding: 25px 25px 10px 25px;
+}
+
+#game {
+    display: none;
+    width: 1000px; 
+    color: #ffffff;
+    background-color: #111111;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    flex-direction: column; 
+    position: relative;
+}
+
+#gssrem {
+   text-align: center;
+}
+
+#ruleblock {
+    background-color: #181818;
+    width: 25%;
+    /* margin: 0px 5px 0px 5px; */
+    /* padding: 1px 5px 1px 5px; */
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+#ruless {
+    margin-left: 5px;
+}
+
+#gamehead {
+    display: flex;
+    justify-content: center;
+}
+
+#buttext {
+    font-size: 10px;
+}
+
+/* #block1 {
+    background: orange;
+    height: 165px;
+    width: 250px;
+    top:0;
+    left:0;
+    display: inline-block;
+} */
+
+#gamebody {
+    display: flex;
+    justify-content: center;   
+}
+
+#fullcat {
+   text-align: center;
+}
+
+#fullwrong {
+    text-align: center;
+}
+
+/* #backcolor {
+    height: 100%;
+    width: 100%;
+    background-color: #403533;
+} */
