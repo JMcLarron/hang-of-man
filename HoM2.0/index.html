@@ -1,0 +1,69 @@
+<DOCTYPE! html>
+    <html>
+
+    <head>
+
+        <title>Hangmanny Pacqio</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div id="backbitch">
+
+            <div id='start_button'>
+                <button>START<br>
+                    <p id=buttext>"Click me!"</p>
+                </button>
+            </div>
+
+            <div id='game'>
+
+                <!-- <div id="backcolor"></div> -->
+                <!-- <div class="block1"></div> -->
+
+                <div id="gamehead">
+
+                    <div id="ruleblock">
+                        <p id="ruless">Rules:</p>
+                        <ul id='rules'>
+                            <li>Press a letter to begin.</li>
+                            <li>Only choose a letter once.</li>
+                            <li>Enjoy!</li>
+
+                        </ul>
+                    </div>
+
+                    <div id='hanged'>
+                        <h1 id="fullcat">Category:<span id='category'></span></h1>
+                    </div>
+
+                </div>
+
+                <div id="gamebody">
+
+                    <div id='selection'>
+
+                        <div id='chosen_word'>
+
+                            <h1><span id='word_length'></span></h1>
+
+                        </div>
+
+                        <h2 id="gssrem">Guesses Remaining: <span id="body_parts"></span></h2>
+
+                        <p id="fullwrong">Wrong Guesses: <span id='wrong_guess'></span></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src='script.js'></script>
+    </body>
+
+    </html>
